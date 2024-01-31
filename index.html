@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>The Incredible India</title>
+
+    <!-- custom font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="styles/normalize-fwd.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/home.css" />
+
+    <!-- script -->
+    <script src="scripts/navigation.js" defer></script>
+  </head>
+  <body>
+    <!-- navigation menu list -->
+    <header class="site-header">
+      <nav class="site-navigation" id="site-navigation">
+        <button
+          class="menu-toggle"
+          aria-controls="header-menu"
+          aria-expanded="false"
+          aria-label="Menu Toggle"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            viewBox="0 0 24 24"
+          >
+            <title>Menu Icon</title>
+            <path
+              d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"
+            ></path>
+          </svg>
+        </button>
+
+        <ul class="nav-menu" id="header-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="culture.html">Culture</a></li>
+          <li><a href="cuisine.html">Cuisine</a></li>
+          <li><a href="attractions.html">Attraction</a></li>
+          <li><a href="credit.html">Credit</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- section -->
+      <section class="banner-video">
+        <h1>The Incredible India</h1>
+        <video autoplay muted loop playsinline>
+          <source src="media/background-video.mp4" type="video/mp4" />
+          <source src="media/background-video.webm" type="video/webm" />
+          Your browser does not support the video element.
+        </video>
+      </section>
+      <div class="blockquote-text">
+        <blockquote>
+          <p>
+            "If I were asked under what sky the human mind has most fully
+            developed some of its choicest gifts, has most deeply pondered on
+            the greatest problems of life, and has found solutions, I should
+            point to India."
+          </p>
+          <cite>- MAX MULLER</cite>
+        </blockquote>
+      </div>
+    </main>
+
+    <!-- copyright -->
+    <footer class="footer">
+      <p>&copy; FWD 2024 Priya Tyagi</p>
+    </footer>
+  </body>
+</html>
