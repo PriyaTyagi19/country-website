@@ -1,49 +1,39 @@
-
 /* main section */
 
 .banner-video {
-    margin:4.5rem 0 0;
-    position: relative;
+  margin: 4.5rem 0 0;
+  position: relative;
 }
-.banner-video h1{
-
-    position: absolute;
-    bottom: 1rem;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    text-align: left;
-    font-size: 2.5rem;
-    color: #FFFFFF;
-    text-shadow: 3px 3px 6px #000000;
-    font-family: 'Great Vibes', cursive, Arial, Helvetica, sans-serif;
-    width: fit-content;
-    margin: 0;
-   
-    
+.banner-video h1 {
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  text-align: left;
+  font-size: 2.5rem;
+  color: #ffffff;
+  text-shadow: 3px 3px 6px #000000;
+  font-family: "Great Vibes", cursive, Arial, Helvetica, sans-serif;
+  width: fit-content;
+  margin: 0;
 }
-.banner-video video{
-    display: block;
-    object-fit: cover;
-     height: 75vh;
-     width: 100%; 
-    opacity: 0.9;
-    
+.banner-video video {
+  display: block;
+  object-fit: cover;
+  height: 75vh;
+  width: 100%;
+  opacity: 0.9;
 }
 
 .blockquote-text {
-    margin: 0;
-    /* background-color:#FFFFFF; */
-    padding:1rem 0;
+  margin: 0;
+  /* background-color:#FFFFFF; */
+  padding: 1rem 0;
 }
 
 @media (min-width: 50em) {
-  
-    
-    .banner-video h1{
-        font-size: 5rem;
-
-    }
-    
-    
+  .banner-video h1 {
+    font-size: 5rem;
   }
+}
