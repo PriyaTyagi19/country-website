@@ -1,5 +1,8 @@
 /* main section attraction */
 
+.section-main p{
+  text-align: center;
+}
 .img-caption {
   display: block;
   background-color: #ffffff;
@@ -84,7 +87,7 @@
   padding: 1rem;
   border: none;
   cursor: pointer;
-  opacity: 0.8;
+  
 }
 
 .form-popUp {
@@ -108,10 +111,10 @@ display: none;
 
 @media (min-width: 50em){
    .form-popUp{
-      width: 50%;
+      width: 30%;
      
    }
    .form-container input[type="text"]{
-      width: 80%;
+      width: 50%;
    }
 }

@@ -85,6 +85,11 @@ a:focus {
   align-items: center;
 }
 
+.site-logo{
+  width: 5rem;
+  height: 3rem;
+}
+
 .site-navigation ul {
   list-style: none;
   padding: 0;
@@ -155,7 +160,7 @@ a:focus {
   padding: 1rem;
 }
 .section-main h1 {
-  margin-top: 3.5rem;
+  margin-top: 4rem;
   text-align: center;
 }
 .section-main p {
