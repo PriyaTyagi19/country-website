@@ -26,8 +26,8 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #282828;
-  background-color: #b2e2ee;
+  color: #ffffff;
+  background-color: #3f3425;
 }
 
 h1,
@@ -51,7 +51,7 @@ p {
 --------------------------------------------- */
 a,
 a:visited {
-  color: #008000;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -59,7 +59,7 @@ a:hover,
 a:focus,
 a:active {
   text-decoration: underline;
-  background-color: #7fc2ee;
+  background-color: #AA9B88;
  
 }
 
@@ -171,6 +171,7 @@ a:focus {
 --------------------------------------------- */
 .footer {
   background-color: #ffffff;
+  color: #000000;
   border-top: 2px solid #777474;
 }
 

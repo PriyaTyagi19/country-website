@@ -1,0 +1,41 @@
+.table-credit{
+    table-layout: fixed;
+    width: 18rem;
+    border: 2px solid #FFFFFF;
+    padding: 1rem;
+    border-collapse: collapse;
+}
+
+.table-credit td{
+    overflow: hidden;
+    white-space: wrap;
+   
+}
+.table-credit caption {
+    padding: 3px;
+    margin-top: 2rem;
+}
+.table-credit th,td {
+    border: 1px solid #FFFFFF;
+    padding: 4px 7px;
+}
+.table-credit th{
+    font-size: 1.2rem;
+}
+@media (min-width: 50em) {
+    .table-credit {
+        background-color: #e7ac60;
+        width: 80%;
+        padding: 2rem;
+        margin: auto;
+    }
+
+    .table-credit th , td {
+        color: #000;;
+    }
+    td a,
+    a:visited{
+        color: #000;
+        padding: 1rem;
+    }
+  }
