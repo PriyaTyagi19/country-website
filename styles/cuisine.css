@@ -20,6 +20,7 @@
   }
   .food-grid h2{
     grid-column: 1/4;
+    color: #000000;
   }
   .food-grid img {
     display: block;

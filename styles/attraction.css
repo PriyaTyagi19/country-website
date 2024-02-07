@@ -5,13 +5,14 @@
 }
 .img-caption {
   display: block;
-  background-color: #000000;
+  background-color: #ffffff;
+  color: #000000;
   box-shadow: 0.5rem 0.5rem 1rem #383838;
   text-align: center;
-  font-family: "Great Vibes", cursive, Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 500;
 }
+
 
 @media (min-width: 50em) {
   .photo-collage {
