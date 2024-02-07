@@ -1,6 +1,6 @@
 /* main section attraction */
 
-.section-main p{
+.section-main p {
   text-align: center;
 }
 .img-caption {
@@ -12,7 +12,6 @@
   font-size: 1.3rem;
   font-weight: 500;
 }
-
 
 @media (min-width: 50em) {
   .photo-collage {
@@ -88,34 +87,33 @@
   padding: 1rem;
   border: none;
   cursor: pointer;
-  
 }
 
 .form-popUp {
-display: none;
- width: 90%;
- border: 2px solid #5d5d5d;
- box-shadow: 0.5rem 0.5rem 1rem #3c3c3c;
- background-color: #e7ac60;
- color: #000000;
- padding: 1rem;
- margin: 1rem auto;
+  display: none;
+  width: 90%;
+  border: 2px solid #5d5d5d;
+  box-shadow: 0.5rem 0.5rem 1rem #3c3c3c;
+  background-color: #e7ac60;
+  color: #000000;
+  padding: 1rem;
+  margin: 1rem auto;
 }
-.form-container label , input{
-   display: block;
-   margin: 0.5rem auto;
+.form-container label,
+input {
+  display: block;
+  margin: 0.5rem auto;
 }
-.form-container button{
-   display: block;
-   margin: 1rem auto;
+.form-container button {
+  display: block;
+  margin: 1rem auto;
 }
 
-@media (min-width: 50em){
-   .form-popUp{
-      width: 30%;
-     
-   }
-   .form-container input[type="text"]{
-      width: 50%;
-   }
+@media (min-width: 50em) {
+  .form-popUp {
+    width: 30%;
+  }
+  .form-container input[type="text"] {
+    width: 50%;
+  }
 }

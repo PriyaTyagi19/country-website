@@ -4,18 +4,21 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Scenic Places in India</title>
-    <meta name="description" content="Visit the most scenic places in India. Dive into nature's beauty and book your next vaccation.">
+    <meta
+      name="description"
+      content="Visit the most scenic places in India. Dive into nature's beauty and book your next vaccation."
+    />
 
     <!-- favicon -->
-<link rel="icon" href="favicon.ico" sizes="any"> 
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="apple-touch-icon.png"/>
-<link rel="manifest" href="site.webmanifest" />
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
 
     <!-- stylesheets -->
     <link rel="stylesheet" href="styles/normalize-fwd.css" />
     <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="stylesheet" href="styles/attraction.css">
+    <link rel="stylesheet" href="styles/attraction.css" />
 
     <!-- script -->
     <script src="scripts/navigation.js" defer></script>
@@ -25,7 +28,12 @@
     <a class="screen-reader-text" href="#site-main">Skip to content</a>
     <!-- navigation menu list -->
     <header class="site-header">
-      <a href="index.html" class="site-logo"><img src="images/flag-logo.svg" alt="A logo of Indian flag" class="site-logo"></a>
+      <a href="index.html" class="site-logo"
+        ><img
+          src="images/flag-logo.svg"
+          alt="A logo of Indian flag"
+          class="site-logo"
+      /></a>
       <nav class="site-navigation" id="site-navigation">
         <button
           class="menu-toggle"
@@ -58,51 +66,73 @@
     <main id="site-main">
       <!-- section -->
       <section class="section-main">
-            <h1>Pictursque India</h1>
-            <p>
-              Tourism in India is economically important and ever-growing. Various states and union territories of India attract tourists from all over the world, mainly due to the cultural diversity.
-            </p>
-            <div class="photo-collage">
-              <figure class="img-caption photo1">
-                <img src="images/hawa-mahal.jpg" alt="A photo of Hawa-Mahal">
-                <figcaption>Hawa-Mahal</figcaption>
-              </figure>
-              <figure  class="img-caption photo2">
-                <img  src="images/mountains-leh.jpg" alt="A photo of Mountain-leh">
-                <figcaption>Mountain-leh</figcaption>
-              </figure>
-              <figure  class="img-caption photo3">
-                <img  src="images/patrika-gate.jpg" alt="A photo of Patrikha-gate">
-                <figcaption>Patrikha-gate</figcaption>
-              </figure>
-              <figure  class="img-caption photo4">
-                <img  src="images/taj-mahal.jpg" alt="A photo of Taj-Mahal">
-                <figcaption>Taj-Mahal</figcaption>
-              </figure>
-              
-            </div>
-
-        </section>
-        <section class="section-form">
-          <h3>Contact Us</h3>
-          <p>Get a package for your next vaccation.</p>
-          <button class="open-formbtn" onclick="openForm()">Get a package!</button>
-          <div class="form-popUp" id="myForm">
-            <form action="#" method="post" class="form-container">
-              <label for="name">Name:</label>
-              <input type="text" name="name" id="name" placeholder="Enter your name">
-              <label for="destination">Destination:</label>
-              <input type="text" name="destination" id="destination" placeholder="Enter destination">
-              <label for="start-date">Start Date:</label>
-              <input type="date" name="start-date" id="start-date" min="2024-01-01" max="2024-12-31">
-              <label for="end-date">End Date:</label>
-              <input type="date" name="end-date" id="end-date" min="2024-01-01" max="2024-12-31">
-              <button type="submit" onclick="closeForm()">Submit</button>
-  
-            </form>
-          </div>
-        </section>
-        
+        <h1>Pictursque India</h1>
+        <p>
+          Tourism in India is economically important and ever-growing. Various
+          states and union territories of India attract tourists from all over
+          the world, mainly due to the cultural diversity.
+        </p>
+        <div class="photo-collage">
+          <figure class="img-caption photo1">
+            <img src="images/hawa-mahal.jpg" alt="A photo of Hawa-Mahal" />
+            <figcaption>Hawa-Mahal</figcaption>
+          </figure>
+          <figure class="img-caption photo2">
+            <img src="images/mountains-leh.jpg" alt="A photo of Mountain-leh" />
+            <figcaption>Mountain-leh</figcaption>
+          </figure>
+          <figure class="img-caption photo3">
+            <img src="images/patrika-gate.jpg" alt="A photo of Patrikha-gate" />
+            <figcaption>Patrikha-gate</figcaption>
+          </figure>
+          <figure class="img-caption photo4">
+            <img src="images/taj-mahal.jpg" alt="A photo of Taj-Mahal" />
+            <figcaption>Taj-Mahal</figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="section-form">
+        <h3>Contact Us</h3>
+        <p>Get a package for your next vaccation.</p>
+        <button class="open-formbtn" onclick="openForm()">
+          Get a package!
+        </button>
+        <div class="form-popUp" id="myForm">
+          <form action="#" method="post" class="form-container">
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+            />
+            <label for="destination">Destination:</label>
+            <input
+              type="text"
+              name="destination"
+              id="destination"
+              placeholder="Enter destination"
+            />
+            <label for="start-date">Start Date:</label>
+            <input
+              type="date"
+              name="start-date"
+              id="start-date"
+              min="2024-01-01"
+              max="2024-12-31"
+            />
+            <label for="end-date">End Date:</label>
+            <input
+              type="date"
+              name="end-date"
+              id="end-date"
+              min="2024-01-01"
+              max="2024-12-31"
+            />
+            <button type="submit" onclick="closeForm()">Submit</button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <!-- copyright -->

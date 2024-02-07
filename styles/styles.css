@@ -27,7 +27,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #ffffff;
-  background-color: #61503D;
+  background-color: #61503d;
 }
 
 h1,
@@ -51,7 +51,7 @@ p {
 --------------------------------------------- */
 a,
 a:visited {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -59,8 +59,7 @@ a:hover,
 a:focus,
 a:active {
   text-decoration: underline;
-  background-color: #AA9B88;
- 
+  background-color: #aa9b88;
 }
 
 a:focus {
@@ -85,7 +84,7 @@ a:focus {
   align-items: center;
 }
 
-.site-logo{
+.site-logo {
   width: 5rem;
   height: 3rem;
 }
@@ -179,5 +178,4 @@ a:focus {
   text-align: center;
   margin: 0;
   padding: 1rem 0;
-  
 }
